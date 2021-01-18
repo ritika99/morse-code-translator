@@ -33,12 +33,14 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: black;
     color: var(--secondary-color);
     border-radius: 0.5rem;
     border: none;
     padding: 0.5rem 2rem;
     font-weight: bold;
+    font-size: 1rem;
     margin: 1rem auto;
     display: block;
 }
@@ -107,7 +109,7 @@ textarea{
     max-width: 400px;
     width: 50%;
     display: block;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
 }
 
 .header-heading {
@@ -135,7 +137,6 @@ textarea{
 .section-inverted {
     background-color: var(--pastel-blue);
 }
-
 
 
 /* footer */
